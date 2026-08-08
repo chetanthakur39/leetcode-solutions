@@ -3,7 +3,7 @@ class Solution {
 
          int left = 0;
          int sum =0;
-         int min_length= Integer.MAX_VALUE;;
+         int min_length= Integer.MAX_VALUE;
          int length = 0;
    for(int right = 0; right < nums.length; right++){
          sum += nums[right];
