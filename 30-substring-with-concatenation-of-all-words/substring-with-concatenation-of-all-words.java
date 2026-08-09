@@ -3,9 +3,9 @@ class Solution {
 
         List<Integer> ans = new ArrayList<>();
 
-        if (s == null || s.length() == 0 || words.length == 0)
+        if (s == null || s.length() == 0 || words.length == 0){
             return ans;
-
+        }
         int wordLength = words[0].length();
         int numberOfWords = words.length;
         int windowLength = wordLength * numberOfWords;
